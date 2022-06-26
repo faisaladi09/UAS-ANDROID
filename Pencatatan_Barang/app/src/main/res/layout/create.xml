@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        android:padding="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="INPUT BARANG"
+            android:textAlignment="center"
+            android:textColor="@color/hijaumuda"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/in_CodeBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffffff"
+            android:hint="Masukan Code Barang"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/in_NmBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffffff"
+            android:hint="Masukan Nama Barang"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText" />
+
+
+        <EditText
+            android:id="@+id/in_Keterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffffff"
+            android:gravity="top"
+            android:hint="Tuliskan Catatan Di Sini"
+            android:maxLines="5"
+            android:minLines="3"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_simpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:text="Submit"
+            app:backgroundTint="@color/hijaumuda"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Tugas Kuliah SMT 6/ProjectLatihanAndroidStudio/Pencatatan_Barang/app/src/main/res/layout/activity_adapter_main.xml" value="0.24806201550387597" />
+        <entry key="..\:/Tugas Kuliah SMT 6/ProjectLatihanAndroidStudio/Pencatatan_Barang/app/src/main/res/layout/activity_create.xml" value="0.12158054711246201" />
+        <entry key="..\:/Tugas Kuliah SMT 6/ProjectLatihanAndroidStudio/Pencatatan_Barang/app/src/main/res/layout/activity_edit.xml" value="0.12158054711246201" />
+        <entry key="..\:/Tugas Kuliah SMT 6/ProjectLatihanAndroidStudio/Pencatatan_Barang/app/src/main/res/layout/activity_main.xml" value="0.12158054711246201" />
+        <entry key="..\:/Tugas Kuliah SMT 6/ProjectLatihanAndroidStudio/Pencatatan_Barang/app/src/main/res/layout/create.xml" value="0.12" />
+        <entry key="..\:/Tugas Kuliah SMT 6/ProjectLatihanAndroidStudio/Pencatatan_Barang/app/src/main/res/layout/main.xml" value="0.16" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
